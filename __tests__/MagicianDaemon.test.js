@@ -38,7 +38,7 @@ test('testing stoned getter', () => {
   expect(magician.stoned).toBe(false);
 });
 
-test('testing a stoned daemon', () => {
+test('testing stoned daemon', () => {
   const daemon = new Daemon('Peter', 2, 3, 11, 34);
 
   daemon.stoned = true;
